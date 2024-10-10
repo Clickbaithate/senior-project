@@ -208,7 +208,7 @@ const handleProfileUpdate = async (e) => {
         </div>
       </div>
       <div className="flex justify-center mt-4">
-        {message && <p className="text-red-500">{message}</p>}
+        {message && <p className="text-green-500">{message}</p>}
       </div>
     </div>
   );
